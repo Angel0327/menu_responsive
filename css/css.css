@@ -18,37 +18,68 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', end
 }
 
 .logo{
-    width: 50px;
-    margin-top: 5px;
-    margin-left: 50px;
-    float: left;
-}
-
+    width: 48px;
+        height: 48px;
+        margin-top: 5px;
+        margin-left: 50px;
+        float: left;
+        cursor: pointer;
+    }
 .nav{
-    float:left;
-    margin-left:50px;
-    list-style: none;
-    margin-top: 12px;
+float: left;
+width: 500px;        
+margin-left: 50px;
+list-style: none;
+margin-top: 10px;
+    }
+    
+.bt {
+float: left;
+margin-right:30px;
+padding: 10px;
+color: aliceblue;
+font-size: 17px;	
+text-decoration: none;
+font-weight: 400;
+font-family: sans-serif;
 }
-
-.nav a {
-    float:left;
-    margin-right: 30px;
-    padding: 10px;
-    text-decoration: none;
-    color: #f86e09;
-    font-size: 20px;
-    font-weight: 400;
-    font-family: sans-serif;
+    
+.bt:hover{
+color: white;
+background-color: rgba(41,184,229,1);
 }
-
-.nav a :hover{
-    background-color: #f86e09;
-    color: #ffffff;
+    
+    
+.mas{
+display: flex; 
+flex-direction: column;
 }
-
+    
+.botones4{ 
+list-style: none;
+display: none;     
+}
+    
+.mostrar{
+display: block;
+}
+    
 .mas:hover{
-    padding-right: 80px;
-    padding-bottom: 150px;
-    background-color: #f86e09;
+background-color: rgba(41,184,229,1);
 }
+.botones4 a{
+text-decoration: none;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+    
+.botones4 a li{                
+padding-bottom: 20px;
+padding-top: 20px;
+padding-left: 30px;
+color: white;        
+}
+.botones4 a li:hover{
+background-color:cadetblue;
+}
+    
